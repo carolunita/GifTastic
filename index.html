@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+	<head>
+		<title>GifTastic: The Simpsons</title>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- FONTS -->
+		<link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="icon" type="image/png" href="assets/images/Carolunita.png">
+
+	</head>
+
+	<body>
+
+		<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<h1 id="title">The Simpsons</h1>
+					<h2>Click on any character name to populate cool gifs from The Simpsons!</h2>
+				</div>
+		</div>
+
+		<div class="container-fluid"> <!-- Container -->
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-4"> <!-- Sidebar -->
+					<div class="sidebar">
+						<div class="row">
+							<div id="videoContainer">
+							<!-- Intro video -->
+								<video autoplay muted loop id="myVideo">
+									<source src="assets/css/thesimpsons.mp4" type="video/mp4">
+								</video>
+							</div>
+						</div>
+
+						<div class="row"> <!-- Add new buttons -->
+							<form id="button-form">
+						    	<label for="button-input">Is your favorite character missing?</label>
+						    	<input type="text" id="button-input"><input id="add-char" type="submit" value="add">
+							</form>
+						</div>
+
+						<div class="row"> <!-- Buttons -->
+							<div id="buttons-list"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-md-6 col-lg-8"> <!-- Gifs -->
+					<div class="row"> <!-- Gifs row -->
+						<div class="gifs">
+							<div id="gif-holder"><h3>Select a character from the list</h3></div>
+							<button id="loadButton">Load more...</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- JAVASCRIPT AND JQUERY -->
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="assets/javascript/javascript.js"></script>
+	</body>
+</html>

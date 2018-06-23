@@ -1,0 +1,168 @@
+body {
+	background-color: #000000;
+	font-family: "Alegreya", serif;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.sidebar {
+	position: fixed;
+	width: 30%;
+	padding: 20px;
+}
+
+.gifs {
+	margin: 25px 25px 25px 25px;
+	padding: 20px 30px;
+	background-color: #ffffff;
+	border-radius: 15px;
+}
+
+.holder {
+	height: 250px;
+}
+
+#videoContainer {
+	background: url(tv3.png);
+	width: 400px;
+	height: 300px;
+	position: relative;
+	background-repeat: no-repeat;
+}
+
+#myVideo {
+    width: 65%; 
+    height: 60%;
+    position: absolute;
+    left: 6%;
+    top: 13%;
+}
+
+.img-responsive {
+	width: 100%;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.giphy {
+	max-width: 100%;
+	max-height: 100%;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+button {
+	margin: 3px;
+	padding: 3px 5px;
+	background-color: #ffffff;
+	color: #000000;;
+	border: none;
+	border-radius: 5px;
+}
+
+button:hover {
+	color: #000000;
+	background-color: #ffc000;;
+}
+
+#loadButton {
+	display: none;
+	padding: 5px;
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 25px;
+	border-radius: 10px;
+}
+
+#loadButton:hover {
+	color: #ffc000;
+	background-color: #000000;
+}
+
+h1 {
+	color: #ffc000;
+	text-align: center;
+	font-family: 'Rock Salt', cursive;
+	font-size: 48px;
+}
+
+h2 {
+	color: #ffffff;
+	text-align: center;
+}
+
+h3 {
+	color: #ffc000;
+	text-align: center;
+	font-size: 40px;
+}
+
+p {
+	color: #000000;
+}
+
+#button-form {
+	margin-bottom: 5px;
+	padding: 5px;
+	border-radius: 0px 0px 10px 10px;
+	font-size: 20px;
+	text-align: center;
+	color: #ff0000;
+}
+
+label {
+	margin-right: 10px;
+}
+
+input {
+	margin-bottom: 5px;
+	padding: 3px 10px;
+	max-width: 95%;
+	font-size: 20px;
+	border-radius: 5px;
+	color: #000000;
+}
+
+#add-char {
+	margin-left: 5px;
+	padding: 5px 12px;
+	background-color: #ffc000;
+	color: #000000;
+	border: none;
+	text-transform: uppercase;
+}
+
+/* MEDIA QUERIES */
+
+/* Large devices <1200px */
+@media (max-width: 1199px) { 
+	div.container {
+		width: 85%;
+	}
+
+	div.sidebar {
+		position: static;
+		width: auto;
+		margin-bottom: 0px;
+	}
+}
+
+/* Medium devices <992px */
+@media (max-width: 991px) { 
+}
+
+/* Small devices <768px */
+@media (max-width: 767px) { 
+		div.container {
+		width: 90%;
+	}
+}
+
+/* Tiny devices < 576px */
+@media (max-width: 575px) { 
+	}
+
+@media (min-width: 480px) {
+		div.container {
+		width: 150%;
+	}
+}
