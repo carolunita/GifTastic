@@ -2,7 +2,7 @@ body {
 	background-color: #000000;
 	font-family: "Alegreya", serif;
 	font-size: 16px;
-	color: #ffffff;
+	color: #000000;
 }
 
 .sidebar {
@@ -60,8 +60,8 @@ button {
 }
 
 button:hover {
-	color: #000000;
-	background-color: #ffc000;;
+	color: #ffffff;
+	background-color: #ffc000;
 }
 
 #loadButton {
@@ -79,21 +79,22 @@ button:hover {
 }
 
 h1 {
-	color: #ffc000;
+	color: #ffffff;
 	text-align: center;
 	font-family: 'Rock Salt', cursive;
 	font-size: 48px;
 }
 
 h2 {
-	color: #ffffff;
+	color: #ffc000;
 	text-align: center;
+	font-size: 28px;
 }
 
 h3 {
-	color: #ffc000;
 	text-align: center;
-	font-size: 40px;
+	font-size: 26px;
+	color: #000000;
 }
 
 p {
